@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/f9d9fec8e6.js" crossorigin="anonymous"></script>
 </head>
 
 <body style="overflow-x:hidden; max-width: 100vw">
@@ -87,8 +87,13 @@
             </div>
         </div>
         <div class="col-8 align-self-center">
-            <h2>Tentang MBS (PT Mantap Bersama Suskes)</h2>
-            <p class="pr-5">Kami adalah sebuah perusahaan yang mempunyai semangat positif, kekeluargaan dan mengedepankan kualitas bergerak dalam bidang Kesehatan dan Perdagangan Besar Obat Tradisional. <br /> MANTAP BERSAMA SUKSES menjawab semua kebutuhan masyarakat Indonesia akan obat herbal yang berkualitas dan alami. Produk unggulan kami mulai dari produk minuman kesehatan, kecantikan dan berbagai macam herbal lainnya. PT MANTAP BERSAMA SUKSES mempunyai pengalaman mulai dari produksi, suplayer dan distributor yang menjangkau seluruh lapisan masyarakat Indonesia. <br /> PT MANTAP BERSAMA SUKSES didukung oleh tenaga ahli dan SDM profesional yang memiliki semangat muda dan energik sehingga berkompeten untuk menghasilkan kualitas yang terbaik dalam perusahaan.</p>
+            <div class="row">
+                <h2>Tentang MBS (PT Mantap Bersama Suskes)</h2>
+                <p class="pr-5">Kami adalah sebuah perusahaan yang mempunyai semangat positif, kekeluargaan dan mengedepankan kualitas bergerak dalam bidang Kesehatan dan Perdagangan Besar Obat Tradisional. <br /> MANTAP BERSAMA SUKSES menjawab semua kebutuhan masyarakat Indonesia akan obat herbal yang berkualitas dan alami. Produk unggulan kami mulai dari produk minuman kesehatan, kecantikan dan berbagai macam herbal lainnya. PT MANTAP BERSAMA SUKSES mempunyai pengalaman mulai dari produksi, suplayer dan distributor yang menjangkau seluruh lapisan masyarakat Indonesia. <br /> PT MANTAP BERSAMA SUKSES didukung oleh tenaga ahli dan SDM profesional yang memiliki semangat muda dan energik sehingga berkompeten untuk menghasilkan kualitas yang terbaik dalam perusahaan.</p>
+            </div>
+            <div class="row justify-content-end pr-5 mr-2">
+                <a type="button" data-toggle="modal" data-target="#Company-Modal" class="btn btn-primary">Learn More</a>
+            </div>
         </div>
     </div>
     <!-- Product lineUp -->
@@ -120,8 +125,8 @@
                     <h6>Rahasia Pria Sejati Indonesia</h6>
                     <p class="card-text">Minuman Botanikal Khusus Pria Dewasa yang mampu Memperbaiki Disfungsi Ereksi, Memulihkan dan Meningkatkan Stamina, Menjaga Daya Tahan Tubuh Serta Dapat Meningkatkan Sistem Imun.</p><br /><br />
                     <div class="dropdown-divider"></div>
-                    <a type="button" data-toggle="modal" data-target="#" class="btn btn-primary">Learn More</a>
-                    <a type="button" data-toggle="modal" data-target="#" class="btn btn-success">Buy Now!</a>
+                    <a type="button" data-toggle="modal" data-target="#LT-Men-Modal" class="btn btn-primary">Learn More</a>
+                    <a type="button" data-toggle="modal" onclick="window.open('https://api.whatsapp.com/send/?phone=%2B6281280077982&text=Hai%2C+Saya+mau+beli+LT-Men-nya+dong&app_absent=0','_blank');" class="btn btn-success">Buy Now!</a>
                 </div>
             </div>
             <div class="mx-4 card product-card" id="9SP">
@@ -131,8 +136,8 @@
                     <h6>Pilihan Keluarga Indonesia</h6>
                     <p class="card-text">Minuman Botanikal Serbuk Menyegarkan Dengan 9 super peptide dengan fungsi utama yang dapat mencegah Gagal Ginjal, Mencegah Stroke, Mencegah Penyakit Jantung, Mencegah Kanker Rahim, Melancakan Pembuluh Darah, dan Mencegah Penyakit Jantung.</p>
                     <div class="dropdown-divider"></div>
-                    <a type="button" data-toggle="modal" data-target="#" class="btn btn-primary">Learn More</a>
-                    <a type="button" data-toggle="modal" data-target="#" class="btn btn-success">Buy Now!</a>
+                    <a type="button" data-toggle="modal" data-target="#SembilanSP-Modal" class="btn btn-primary">Learn More</a>
+                    <a type="button" data-toggle="modal" onclick="window.open('https://api.whatsapp.com/send/?phone=%2B6281280077982&text=Hai%2C+Saya+mau+beli+9SP-nya+dong&app_absent=0','_blank');" class="btn btn-success">Buy Now!</a>
                 </div>
             </div>
         </div>
@@ -146,7 +151,7 @@
             </div>
         </span>
     </div>
-    <div class="row d-flex justify-content-center align-self-center" style="height: 80vh;">
+    <div class="row d-flex justify-content-center align-self-center p-5">
         <div class="col d-flex justify-content-center align-self-center">
             <div class="col-4">
                 <div class="hover hover-2 text-white rounded"><img src="/public/assets/images/afni-testimoni.png" alt="">
@@ -186,7 +191,56 @@
             </div>
         </span>
     </div>
-    <div class="row" style="background-color: #f9f9f9; height: 80vh;">
+    <div class="row mx-5 px-5 mb-5" style="background-color: #f9f9f9;">
+        <div class="col-6">
+            <div class="row my-3 justify-content-around">
+                <h5 style="font-weight: lighter">Hubungi Kami Kapanpun</h5>
+            </div>
+            <div class="row my-3 d-flex justify-content-around">
+                <input type="text" name="Name" id="Name" class="inline-form" placeholder="Name" />
+                <input type="email" name="Email" id="Email" class="inline-form" placeholder="Email" />
+            </div>
+            <div class="row my-3 d-flex justify-content-around">
+                <textarea name="Message" id="Message" class="textarea-form" placeholder="Message" rows="6"></textarea>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="row my-3 justify-content-around">
+                <h5 style="font-weight: strong">Contact Details</h5>
+            </div>
+            <div class="row my-3">
+                <i class="icon-list fas fa-map-marked-alt fa-2x"></i>
+                <a href="https://g.page/Mbsgrup?share">
+                    Jl. Mangga Besar Raya No. 38A RT/RW. 002 Kel. Taman Sari, Jakarta Barat, DKI Jakarta 11150
+                </a>
+            </div>
+            <div class="row my-3">
+                <i class="icon-list fas fa-at fa-2x"></i>
+                <a href="mailto:info@mbs-official.store">
+                    info@mbs-official.store
+                </a>
+            </div>
+            <div class="row my-3">
+                <i class="icon-list fas fa-store-alt fa-2x"></i>
+                <a href="tel:+6281280077982">0812 8007 7982 </a> | <a href="+621280077983">0812 8007 7983</a>
+            </div>
+            <div class="row my-3">
+                <i class="icon-list fas fa-phone fa-2x"></i>
+                <a href="tel:+622122683586">(021) 2268 3586 </a> | <a href="tel:+6287784791661">0877 8479 1661</a>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center align-items-center px-5 pt-5" style="background-color: #7682CC; color: white;">
+        <i class="far fa-copyright fa-lg pr-1"></i>
+        <h4> PT. Mantap Bersama Sukses Ft. BiruLangit</h4>
+    </div>
+    <div class="row justify-content-center align-items-center px-5 pb-5" style="background-color: #7682CC; color: white;">
+        <a href="https://www.facebook.com/101123695401430/posts/116243737222759/?sfnsn=wiwspwa">
+            <i class="fa fa-facebook-official" style="font-size: 2rem; padding: 0 1rem 0 1rem"></i>
+        </a>
+        <i href="" class="fa fa-instagram" style="font-size: 2rem; padding: 0 1rem 0 1rem"></i>
+        <i href="" class="fa fa-youtube-play" style="font-size: 2rem; padding: 0 1rem 0 1rem"></i>
+        <i href="" class="fa fa-envelope" style="font-size: 2rem; padding: 0 1rem 0 1rem"></i>
     </div>
     <!-- Modal -->
     <div class="modal fade" id="VMG-Modal" tabindex="-1" aria-labelledby="VMG" aria-hidden="true">
@@ -295,6 +349,159 @@
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     <button type="button" class="btn btn-primary" onclick="window.open('https://api.whatsapp.com/send/?phone=%2B6281280077982&text=Hai%2C+Saya+mau+beli+VMG-nya+dong&app_absent=0','_blank');">Buy Now!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="LT-Men-Modal" tabindex="-1" aria-labelledby="LT-Men" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="LT-Men">LT-Men</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="assets/images/LT-Men.png" alt="LT-Men" style="width: 13rem;">
+                            </div>
+                            <div class="col-6">
+                                <h2>LT-Men</h2>
+                                <h2 style="font-weight: 300;">Rp 600.000,-</h2>
+                            </div>
+                            <div class="px-2 pt-1">
+                                <h6>VMG Adalah</h6>
+                                <p>
+                                    Minuman Botanikal Khusus Pria Dewasa yang mampu Memperbaiki Disfungsi Ereksi, Memulihkan dan Meningkatkan Stamina, Menjaga Daya Tahan Tubuh Serta Dapat Meningkatkan Sistem Imun.
+                                </p>
+                                <ul>
+                                    <li>Bit Merah </li>
+                                    <li>Gingseng</li>
+                                    <li>Biji Anggur </li>
+                                    <li>Anggur</li>
+                                    <li>Manggi S</li>
+                                    <li>Kri Mer Nabati</li>
+                                    <li>Apel</li>
+                                    <li>Vitamin C</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" onclick="window.open('https://api.whatsapp.com/send/?phone=%2B6281280077982&text=Hai%2C+Saya+mau+beli+LT-Men-nya+dong&app_absent=0','_blank');">Buy Now!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="SembilanSP-Modal" tabindex="-1" aria-labelledby="9SP" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="9SP">9SP</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="assets/images/9SP.png" alt="9SP" style="width: 13rem;">
+                            </div>
+                            <div class="col-6">
+                                <h2>9SP</h2>
+                                <h2 style="font-weight: 300;">Rp 600.000,-</h2>
+                            </div>
+                            <div class="px-2 pt-1">
+                                <h6>9SP Adalah</h6>
+                                <p>
+                                    N/A
+                                </p>
+                                <ul>
+                                    <li>Ginseng</li>
+                                    <ol>
+                                        <li>Memperbaiki disfungsi ereksi</li>
+                                        <li>Mengingkatkan imun tubuh</li>
+                                        <li>Memulihkan dan meningkatkan stamina</li>
+                                        <li>Meningkatkan konsentrasi otak</li>
+                                    </ol>
+                                    <li>Bit Merah</li>
+                                    <ol>
+                                        <li>Menurunkan Tekanan Darah </li>
+                                        <li>Tinggi Antioksidan</li>
+                                        <li>Menjaga Fungsi Syaraf</li>
+                                    </ol>
+                                    <li>Bijji Anggur</li>
+                                    <ol>
+                                        <li>Menjaga kesehatan jantung</li>
+                                        <li>Mempercepat penyembuhan luka</li>
+                                        <li>Menurunkan risiko kanker</li>
+                                    </ol>
+                                    <li>Apel</li>
+                                    <ol>
+                                        <li>Kaya akan antioksidan</li>
+                                        <li>Menurunkan berat badan</li>
+                                        <li>Menjaga daya tahan tubuh</li>
+                                        <li>Menurunkan kadar kolesterol</li>
+                                    </ol>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" onclick="window.open('https://api.whatsapp.com/send/?phone=%2B6281280077982&text=Hai%2C+Saya+mau+beli+9SP-nya+dong&app_absent=0','_blank');">Buy Now!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Company-Modal" tabindex="-1" aria-labelledby="MBS" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="MBS">About MBS</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="row" style="flex-direction: column; align-items: center;">
+                                <img src="assets/images/logo.png" alt="MBS" style="width: 13rem;">
+                                <h2>MBS - PT. Mantap Bersama Sukses</h2>
+                            </div>
+                            <div class="px-2 pt-1">
+                                <h4>Visi</h4>
+                                <p>Menjadi perusahaan yang terdepan dan terbaik dalam pemenuhan kebutuhan akan produk – produk herbal bagi masyarakat Indonesia yang menggunakan teknologi modern dan bahan – bahan berkualitas untuk memenuhi kebutuhan harian konsumen dan bagi kepentingan lainnya.</p>
+                                <h4>Misi</h4>
+                                <ul>
+                                    <li>Menyediakan layanan yang terbaik bagi semua pelanggan, baik konsumen maupun para penyalur produk.</li>
+                                    <li>Memproduksi, mengembangkan dan memasarkan produk herbal dan alami dengan standar mutu terbaik untuk pemenuhan kebutuhan konsumen diberbagai lapisan masyarakat Indonesia.</li>
+                                    <li>Merekrut, melatih dan mempertahankan tenaga kerja yang kompeten dan produktif bagi perusahaan.</li>
+                                </ul>
+                                <h4>Kenapa Harus MBS?</h4>
+                                <ul>
+                                    <li>Jaringan network besar</li>
+                                    <li>Produk tersertifikasi bpom</li>
+                                    <li>Layanan customer service 24 jam</li>
+                                    <li>Produk asli garansi uang kembali</li>
+                                    <li>Halal MUI</li>
+                                    <li>dll</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" onclick="window.location.href='tel:+6281280077982'">Contact US</button>
                 </div>
             </div>
         </div>

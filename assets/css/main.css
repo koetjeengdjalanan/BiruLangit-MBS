@@ -103,3 +103,21 @@
 .hover-2:hover .hover-overlay {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1));
 }
+
+.inline-form {
+  width: 40%;
+}
+
+.textarea-form {
+  width: 90%;
+}
+
+.icon-list {
+  min-height: 1em;
+  min-width: 1em;
+  padding-right: 1em;
+}
+
+a a:hover {
+  color: black !important;
+}
